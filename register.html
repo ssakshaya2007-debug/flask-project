@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Application Form</title>
+
+    <style>
+
+        body{
+            font-family: Arial, sans-serif;
+            background:#f2f2f2;
+            padding:30px;
+        }
+
+        .container{
+            max-width:900px;
+            margin:auto;
+            background:white;
+            padding:30px;
+            border-radius:10px;
+            box-shadow:0 0 10px gray;
+        }
+
+        h1{
+            text-align:center;
+        }
+
+        h2{
+            margin-top:30px;
+            border-bottom:2px solid gray;
+        }
+
+        .row{
+            display:flex;
+            gap:15px;
+            margin-bottom:15px;
+        }
+
+        .row input{
+            flex:1;
+        }
+
+        input, textarea, select{
+            width:100%;
+            padding:12px;
+            border:1px solid #ccc;
+            box-sizing:border-box;
+        }
+
+        button{
+            width:100%;
+            padding:15px;
+            font-size:18px;
+            cursor:pointer;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>COLLEGE APPLICATION FORM</h1>
+
+    <h2>Student Information</h2>
+
+    <form>
+
+        <div class="row">
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+        </div>
+
+        <div class="row">
+            <input type="date">
+            <input type="email" placeholder="Email">
+        </div>
+
+        <h2>Address</h2>
+
+        <input type="text" placeholder="Street Address">
+
+        <br><br>
+
+        <div class="row">
+            <input type="text" placeholder="City">
+            <input type="text" placeholder="State">
+        </div>
+
+        <div class="row">
+            <input type="text" placeholder="Country">
+            <input type="text" placeholder="Zip Code">
+        </div>
+
+        <h2>Course Details</h2>
+
+        <select>
+            <option>Select Course</option>
+            <option>BCA</option>
+            <option>BSc CS</option>
+            <option>B.Tech IT</option>
+            <option>MCA</option>
+        </select>
+
+        <br><br>
+
+        <textarea rows="5" placeholder="Why do you want this course?"></textarea>
+
+        <br><br>
+
+        <button type="submit">Submit Application</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
